@@ -12,18 +12,10 @@ body {
     text-align: left;
 }
 
-.devider {
-    width: 900px;
-    margin-top: 25px;
-    margin-bottom: 50px;
-}
+/* header */
 
 .header {
     margin-top: 30px;
-}
-
-.header>*{
-    /* margin-left: 10px; */
 }
 
 .logo {
@@ -41,6 +33,14 @@ body {
     float: right;
 }
 
+/* main */
+
+.devider {
+    width: 900px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
 .print {
     float: right;
 }
@@ -55,6 +55,8 @@ p {
     margin-bottom: 25px;
     text-indent: 25px;
 }
+
+/* recipy */
 
 .recipy-box {
     background-image: url('assets/list-bg.png');
