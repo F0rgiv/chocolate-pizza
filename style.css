@@ -63,12 +63,39 @@ p {
     height: 305px;
 }
 
+.col {
+    margin-top: 33px;
+    /* height: 305px; */
+}
+
 .col-1 {
+    float: left;
+    margin-left: 70px;
+}
+
+.col-2 {
+    float: left;
+    margin-left: 250px;
+    margin-top: 38px;
+}
+
+.col-3 {
     float: left;
 }
 
 .crossout {
     text-decoration: line-through
+}
+
+.recipy {
+    font-family: "Comic Sans", Cursive;
+    margin: 9px;
+    text-indent: 0px;
+    margin-left: 0px;
+}
+
+.box {
+    background-color: transparent; /* TODO why is this not working? */
 }
 
 /* fonts */
@@ -86,13 +113,9 @@ h3 {
 }
 
 h2 {
-    font-family:  Arial, sans-serif;
+    font-family: Arial, sans-serif;
     color: gray;
     font-size: 15px;
     font-weight: 100;
     font-stretch: extra-condensed;
-}
-
-.recipy{
-    font-family: "Comic Sans", Cursive;
 }
