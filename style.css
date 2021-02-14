@@ -119,3 +119,42 @@ h2 {
     font-weight: 100;
     font-stretch: extra-condensed;
 }
+
+/* footer */
+
+.footer{
+    margin-bottom: 45px;
+}
+
+.bottom-devider{
+    margin-bottom: 15px;
+}
+
+.vanessa{
+    float: left;
+}
+
+button{
+    float: right;
+    background-color: orangered;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 180px;
+}
+
+h4{
+    margin-left: 93px;
+    font-size: 20px;
+}
+
+.fp{
+    margin-top: 9px
+}
+
+hr{
+    margin-top: 45px;
+    margin-bottom: 25px;
+    /* content: url('assets/small-logo.png'); */
+    /* display: inline-block; */
+}
