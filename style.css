@@ -19,13 +19,17 @@ body {
 }
 
 .header {
-    /* height: 150px; */
     margin-top: 30px;
+}
+
+.header>*{
+    /* margin-left: 10px; */
 }
 
 .logo {
     float: left;
     height: 50px;
+    padding-right: 10px;
 }
 
 .title {
@@ -41,7 +45,7 @@ body {
     float: right;
 }
 
-.hero{
+.hero {
     margin-top: 25px;
 }
 
@@ -54,5 +58,39 @@ p {
 
 .recipy-box {
     background-image: url('assets/list-bg.png');
-    height: fit-content;
+    height: 305px;
+}
+
+.col-1 {
+    float: left;
+}
+
+.crossout {
+    text-decoration: line-through
+}
+
+/* fonts */
+
+h1 {
+    font-family: "Brush Script MT", Cursive;
+    line-height: 30px;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-stretch: narrower:semi-condensed
+}
+
+h2 {
+    font-family:  Arial, sans-serif;
+    color: gray;
+    font-size: 15px;
+    font-weight: 100;
+    font-stretch: extra-condensed;
+}
+
+.recipy{
+    font-family: "Comic Sans", Cursive;
 }
