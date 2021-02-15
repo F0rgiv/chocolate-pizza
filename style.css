@@ -140,16 +140,9 @@ input[type="checkbox"] {
   }
   
   input[type="checkbox"]:checked::before {
-    /* Use `visibility` instead of `display` to avoid recalculating layout */
     visibility: visible;
   }
   
-  /* input[type="checkbox"]:disabled {
-    border-color: black;
-    background: #ddd;
-    color: gray;
-  } */
-
 /* fonts */
 
 h1 {
